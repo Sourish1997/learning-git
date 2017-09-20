@@ -4,7 +4,8 @@ public class CryptoTester {
     public static void main(String args[]) {
         Crypto crypto = new Crypto();
 
-        System.out.println(crypto.encodeDecode(10));
+        System.out.println(crypto.encodeDecode(11));
+
         System.out.println(crypto.encodeDecode(-3));
         System.out.println(crypto.encodeDecode(0));
         System.out.println(crypto.encodeDecode(-26));
