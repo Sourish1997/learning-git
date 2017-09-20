@@ -23,7 +23,7 @@ public class Crypto {
                     newAsciiValue = newAsciiValue - 26;
             }
 
-            encodedString += (char) newAsciiValue + "";
+            encodedString += (char) newAsciiValue + "_";
         }
 
         return encodedString;
