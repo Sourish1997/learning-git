@@ -19,7 +19,7 @@ public class Coinage {
         //hundreds = amount / 100;
         //amount -= hundreds * 100;
         tens = amount / 20;
-        amount -= tens * 20;
+        amount -= tens * 100;
         fives = amount / 5;
         ones = amount - (fives * 5);
 
